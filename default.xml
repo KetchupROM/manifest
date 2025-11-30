@@ -8,10 +8,22 @@
            remote="github"
            sync-j="4" />
 
-  <!-- Add your repos here -->
+  <!-- Core Android repos -->
+  <project name="android_build" path="build" revision="kr-1.0a" />
+  <project name="android_build_soong" path="build/soong" revision="kr-1.0a" />
+  <project name="android_art" path="art" revision="kr-1.0a" />
+  <project name="android_bionic" path="bionic" revision="kr-1.0a" />
+  <project name="android_bootable_recovery" path="bootable/recovery" revision="kr-1.0a" />
+  <project name="android_dalvik" path="dalvik" revision="kr-1.0a" />
+  <project name="android_external" path="external" revision="kr-1.0a" />
   <project name="android_frameworks_base" path="frameworks/base" revision="kr-1.0a" />
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="kr-1.0a" />
+  <project name="android_frameworks_native" path="frameworks/native" revision="kr-1.0a" />
+  <project name="android_hardware" path="hardware" revision="kr-1.0a" />
+  <project name="android_libcore" path="libcore" revision="kr-1.0a" />
+  <project name="android_packages_apps" path="packages/apps" revision="kr-1.0a" />
   <project name="android_system_core" path="system/core" revision="kr-1.0a" />
-  <project name="vendor_ketchup" path="vendor/ketchup" revision="kr-1.0a" />
+  <project name="android_system_sepolicy" path="system/sepolicy" revision="kr-1.0a" />
+  <project name="android_system_extras" path="system/extras" revision="kr-1.0a" />
+  <project name="android_tools" path="tools" revision="kr-1.0a" />
 
 </manifest>
